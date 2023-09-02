@@ -1,0 +1,9 @@
+
+<suite name="Suite" data-provider-thread-count="3">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.Dataprovidertest">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

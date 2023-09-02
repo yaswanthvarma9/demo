@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.Loginsample">
+      <methods> 
+      <include name ="log"/> 
+      <include name= "search"/>
+      <include name ="addtocart"/> 
+      <include name= "checkout"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

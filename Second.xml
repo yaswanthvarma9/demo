@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.Listeners.ExceutionTest"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.Loginsample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

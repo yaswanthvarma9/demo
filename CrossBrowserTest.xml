@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name = "browser" value ="Edge"/>
+ 
+    <classes>
+      <class name="com.testng.CrossBrowserTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test1">
+  
+  <parameter name = "browser" value ="Chrome"/>
+ 
+    <classes>
+      <class name="com.testng.CrossBrowserTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   
+</suite> <!-- Suite -->
