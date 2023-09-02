@@ -3,6 +3,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.testng.Dataprovidertest">
+
+      <class name="com.testng.Dataprovidertest1">
+
       </class>
     </classes>
   </test> <!-- Test -->
